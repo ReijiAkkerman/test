@@ -5,6 +5,7 @@
     padding: 0;
     color: #000;
     font-family: Inter;
+    text-align: left;
 }
 
 
@@ -87,11 +88,14 @@ header a:hover {
 
 
 
+main {
+    width: 1200px;
+    margin: 20px auto;
+}
+
 .Info {
-    width: 1000px;
     border-left: 5px #fc0 solid;
     padding-left: 20px;
-    margin: 20px auto;
 }
 
 .Info svg {
@@ -118,4 +122,38 @@ header a:hover {
 
 .InfoComments > button {
     float: right;
+}
+
+
+
+.Companies {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Companies > button {
+    margin: 10px 5px;
+}
+
+.CompaniesItem {
+    padding-left: 10px;
+    border-left: 5px #fc0 solid;
+}
+
+.CompaniesItem:hover {
+    background-color: #fc04;
+}
+
+.CompaniesItem > p {
+    margin: 10px 0;
+}
+
+main > button {
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: #fc0;
+    font-weight: bold;
+}
+
+main > button:hover {
+    background-color: #f80;
 }

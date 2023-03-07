@@ -71,3 +71,15 @@ header > div {
     justify-content: end;
     position: relative;
 }
+
+
+
+.Companies {
+    display: grid;
+    position: relative;
+}
+
+.CompaniesItem {
+    display: block;
+    position: relative;
+}
