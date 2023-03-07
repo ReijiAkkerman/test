@@ -1,0 +1,73 @@
+body {
+    display: block;
+    position: relative;
+}
+
+header {
+    display: block;
+    position: relative;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Menu {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.Menu ul {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.Menu > button {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+
+
+.Info {
+    display: block;
+    position: relative;
+}
+
+.InfoItem {
+    display: block;
+    position: relative;
+}
+
+.InfoItemHeader {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.InfoItemHeader > button {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.InfoItemComments {
+    display: block;
+    position: relative;
+}
+
+.InfoComments {
+    display: block;
+    position: relative;
+}
+
+.InfoComments > button {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}

@@ -1,0 +1,121 @@
+* {
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: Inter;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+h1 {
+    color: #f80;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+hr {
+    border-bottom: 1px #000 solid;
+}
+
+
+
+header {
+    border-bottom: 1px #000 solid;
+}
+
+header li {
+    font-size: 20px;
+    margin: 11px 10px;
+    border-bottom: 1px #0000 solid;
+}
+
+header li:hover {
+    border-bottom: 1px #000 solid;
+}
+
+header svg {
+    width: 25px;
+    width: 25px;
+    padding: 0 10px;
+    margin: 10px 0;
+    fill: #555;
+}
+
+header > div {
+    max-width: 1800px;
+}
+
+header > div button {
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+header > div button:hover {
+    background-color: #fc0;
+}
+
+header a:hover {
+    background-color: #fc0;
+}
+
+.Menu p {
+    margin: auto 0;
+}
+
+.Logo > span:hover {
+    border-bottom: 1px #000 solid;
+}
+
+
+
+.Info {
+    width: 1000px;
+    border-left: 5px #fc0 solid;
+    padding-left: 20px;
+    margin: 20px auto;
+}
+
+.Info svg {
+    width: 15px;
+    height: 15px;
+    fill: #555;
+}
+
+.InfoItem {
+    margin: 15px 0;
+}
+
+.InfoItemComments {
+    border-left: 1px #000 solid;
+    padding-left: 5px;
+    margin: 15px 30px;
+}
+
+.InfoComments {
+    border-left: 1px #000 solid;
+    padding-left: 5px;
+    margin: 30px 0;
+}
+
+.InfoComments > button {
+    float: right;
+}
